@@ -1,6 +1,6 @@
 <template>
 	<div class="container">
-		<header></header>
+		<Header />
 
 		<section class="hero"></section>
 
@@ -21,10 +21,12 @@
 </template>
 
 <script>
+import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
 
 export default {
 	components: {
+		Header,
 		Footer
 	}
 };

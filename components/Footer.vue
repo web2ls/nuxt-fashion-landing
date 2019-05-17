@@ -4,17 +4,18 @@
             <div class="copyright">
                 &copy; Copyright e-commerce  1.0. 2022 Designed by Psdfreebies.com
             </div>
-            <div class="logo">
-                <div class="brand">fashion</div>
-                <div class="sub-brand">tagline here</div>
-            </div>
+            <Logo />
         </div>
     </footer>
 </template>
 
 <script>
-export default {
+import Logo from '@/components/Logo.vue';
 
+export default {
+    components: {
+        Logo
+    }
 }
 </script>
 
@@ -45,17 +46,5 @@ footer {
 
 }
 
-.brand {
-    font-size: 28px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
 
-.sub-brand {
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
 </style>
