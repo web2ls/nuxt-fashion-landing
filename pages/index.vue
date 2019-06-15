@@ -4,7 +4,8 @@
 
 		<Hero />
 
-		<section class="offer"></section>
+		<!-- <section class="offer"></section> -->
+		<Categories />
 
 		<section class="product-types"></section>
 
@@ -24,12 +25,14 @@
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
 import Hero from '@/components/Hero.vue';
+import Categories from '@/components/Categories.vue';
 
 export default {
 	components: {
 		Header,
 		Footer,
-		Hero
+		Hero,
+		Categories
 	}
 };
 </script>
