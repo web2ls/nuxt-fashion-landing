@@ -49,16 +49,21 @@
                 </div>
 
                 <div class="shop-now-btn">shop now</div>
+
             </div>
 
-
+            <SpecialOffer />
         </div>
     </section>
 </template>
 
 <script>
-export default {
+import SpecialOffer from './SpecialOffer.vue';
 
+export default {
+    components: {
+        SpecialOffer
+    }
 }
 </script>
 
@@ -174,7 +179,7 @@ export default {
     }
 
     .slide-description {
-        max-width: 290px;
+        max-width: 200px;
         margin-top: 20px;
         font-family: "Open Sans", sans-serif;
         font-size: 14px;
