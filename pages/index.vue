@@ -2,7 +2,7 @@
 	<div class="container">
 		<Header />
 
-		<section class="hero"></section>
+		<Hero />
 
 		<section class="offer"></section>
 
@@ -23,11 +23,13 @@
 <script>
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
+import Hero from '@/components/Hero.vue';
 
 export default {
 	components: {
 		Header,
-		Footer
+		Footer,
+		Hero
 	}
 };
 </script>
