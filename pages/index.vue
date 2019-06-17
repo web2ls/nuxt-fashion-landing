@@ -4,8 +4,9 @@
 
 		<Hero />
 
-		<!-- <section class="offer"></section> -->
 		<Categories />
+
+		<WeOffer />
 
 		<section class="product-types"></section>
 
@@ -26,13 +27,15 @@ import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
 import Hero from '@/components/Hero.vue';
 import Categories from '@/components/Categories.vue';
+import WeOffer from '@/components/WeOffer.vue';
 
 export default {
 	components: {
 		Header,
 		Footer,
 		Hero,
-		Categories
+		Categories,
+		WeOffer,
 	}
 };
 </script>

@@ -77,6 +77,10 @@ export default {
         color: #000;
     }
 
+    .filters-list li {
+        cursor: pointer;
+    }
+
     .categories-list {
         display: flex;
         justify-content: space-between;
@@ -229,6 +233,7 @@ export default {
         text-transform: uppercase;
         font-weight: 700;
         overflow: hidden;
+        cursor: pointer;
     }
 
     .right-side .second-category .description {
