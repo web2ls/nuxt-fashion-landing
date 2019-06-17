@@ -1,13 +1,15 @@
 <template>
-    <section class="we-offer">
-        <div class="content">
-            <div class="header">
-                <span>we offer new brand styles</span>
-            </div>
-            <div class="description">sign up now and get 50% off</div>
-            <div class="see-full-btn">see full collection</div>
-        </div>
-    </section>
+    <div class="container">
+        <section class="we-offer">          
+                <div class="content">
+                    <div class="header">
+                        <span>we offer new brand styles</span>
+                    </div>
+                    <div class="description">sign up now and get 50% off</div>
+                    <div class="see-full-btn">see full collection</div>
+                </div>
+        </section>
+    </div>
 </template>
 
 <script>

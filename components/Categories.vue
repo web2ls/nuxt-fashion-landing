@@ -1,43 +1,33 @@
 <template>
     <section class="categories">
-        <div class="filters">
-            <ul class="filters-list">
-                <li class="filters-item">All</li>
-                <li class="filters-item">spring-summer</li>
-                <li class="filters-item">sweatshirt</li>
-                <li class="filters-item">sneackers</li>
-                <li class="filters-item">gadgets</li>
-                <li class="filters-item">outdoor</li>
-            </ul>
-        </div>
-
-        <div class="categories-list">
-            <div class="left-side">
-                <div class="first-category">
-                    <div class="description">
-                        <div>buy 2 get</div>
-                        <div>up 50% off</div>
-                    </div>
-                </div>
-                <div class="second-category"></div>
+        <div class="container">
+            <div class="filters">
+                <ul class="filters-list">
+                    <li class="filters-item">All</li>
+                    <li class="filters-item">spring-summer</li>
+                    <li class="filters-item">sweatshirt</li>
+                    <li class="filters-item">sneackers</li>
+                    <li class="filters-item">gadgets</li>
+                    <li class="filters-item">outdoor</li>
+                </ul>
             </div>
-            <div class="center-side">
-                <div class="new-badge">
-                    <div class="blackground"><span>new</span></div>
-                    <div class="triangle"></div>
-                </div>
 
-                <div class="description">
-                    <div class="object">Winter Jacket</div>
-                    <div class="object-description">
-                        <span>vintage look</span>
-                        <span>for women</span>
+            <div class="categories-list">
+                <div class="left-side">
+                    <div class="first-category">
+                        <div class="description">
+                            <div>buy 2 get</div>
+                            <div>up 50% off</div>
+                        </div>
                     </div>
-                    <div class="description-shop-now-btn">shop now</div>
+                    <div class="second-category"></div>
                 </div>
-            </div>
-            <div class="right-side">
-                <div class="first-category">
+                <div class="center-side">
+                    <div class="new-badge">
+                        <div class="blackground"><span>new</span></div>
+                        <div class="triangle"></div>
+                    </div>
+
                     <div class="description">
                         <div class="object">Winter Jacket</div>
                         <div class="object-description">
@@ -47,14 +37,26 @@
                         <div class="description-shop-now-btn">shop now</div>
                     </div>
                 </div>
-                <div class="second-category">
-                    <div class="new-badge">
-                        <div class="blackground"><span>new</span></div>
-                        <div class="triangle"></div>
+                <div class="right-side">
+                    <div class="first-category">
+                        <div class="description">
+                            <div class="object">Winter Jacket</div>
+                            <div class="object-description">
+                                <span>vintage look</span>
+                                <span>for women</span>
+                            </div>
+                            <div class="description-shop-now-btn">shop now</div>
+                        </div>
                     </div>
-                    <div class="description">40% off on sunglasses</div>
+                    <div class="second-category">
+                        <div class="new-badge">
+                            <div class="blackground"><span>new</span></div>
+                            <div class="triangle"></div>
+                        </div>
+                        <div class="description">40% off on sunglasses</div>
+                    </div>
                 </div>
-            </div>
+            </div>         
         </div>
     </section>
 </template>

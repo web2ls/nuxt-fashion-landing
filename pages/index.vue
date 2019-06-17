@@ -1,5 +1,5 @@
 <template>
-	<div class="container">
+	<div class="container-wrapper">
 		<Header />
 
 		<Hero />
@@ -8,7 +8,7 @@
 
 		<WeOffer />
 
-		<section class="product-types"></section>
+		<ProductTypes />
 
 		<section class="featured-products"></section>
 
@@ -28,6 +28,7 @@ import Footer from '@/components/Footer.vue';
 import Hero from '@/components/Hero.vue';
 import Categories from '@/components/Categories.vue';
 import WeOffer from '@/components/WeOffer.vue';
+import ProductTypes from '@/components/ProductTypes.vue';
 
 export default {
 	components: {
@@ -36,6 +37,7 @@ export default {
 		Hero,
 		Categories,
 		WeOffer,
+		ProductTypes,
 	}
 };
 </script>
