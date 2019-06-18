@@ -36,6 +36,7 @@ export default {
     .product-types {
         position: relative;
         width: 100%;
+        margin-bottom: 100px;
     }
 
     .header {

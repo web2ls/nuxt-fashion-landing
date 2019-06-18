@@ -10,7 +10,7 @@
 
 		<ProductTypes />
 
-		<section class="featured-products"></section>
+		<FeaturedProducts />
 
 		<section class="subcribe"></section>
 
@@ -29,6 +29,7 @@ import Hero from '@/components/Hero.vue';
 import Categories from '@/components/Categories.vue';
 import WeOffer from '@/components/WeOffer.vue';
 import ProductTypes from '@/components/ProductTypes.vue';
+import FeaturedProducts from '@/components/FeaturedProducts.vue';
 
 export default {
 	components: {
@@ -38,6 +39,7 @@ export default {
 		Categories,
 		WeOffer,
 		ProductTypes,
+		FeaturedProducts,
 	}
 };
 </script>

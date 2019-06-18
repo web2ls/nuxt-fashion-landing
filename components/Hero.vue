@@ -103,7 +103,7 @@ export default {
         flex-basis: 95%;
         position: relative;
         background: url(~assets/images/hero-bg.jpg) no-repeat;
-        background-size: contain;
+        background-size: cover;
     }
 
     .content-wrapper {
