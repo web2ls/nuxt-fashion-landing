@@ -12,7 +12,7 @@
 
 		<FeaturedProducts />
 
-		<section class="subcribe"></section>
+		<Subscribe />
 
 		<section class="blog-news"></section>
 
@@ -30,6 +30,7 @@ import Categories from '@/components/Categories.vue';
 import WeOffer from '@/components/WeOffer.vue';
 import ProductTypes from '@/components/ProductTypes.vue';
 import FeaturedProducts from '@/components/FeaturedProducts.vue';
+import Subscribe from '@/components/Subscribe.vue';
 
 export default {
 	components: {
@@ -40,6 +41,7 @@ export default {
 		WeOffer,
 		ProductTypes,
 		FeaturedProducts,
+		Subscribe,
 	}
 };
 </script>
