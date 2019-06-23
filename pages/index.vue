@@ -16,7 +16,7 @@
 
 		<Blog />
 
-		<section class="summary-info"></section>
+		<Info />
 
 		<Footer />
 	</div>
@@ -32,6 +32,7 @@ import ProductTypes from '@/components/ProductTypes.vue';
 import FeaturedProducts from '@/components/FeaturedProducts.vue';
 import Subscribe from '@/components/Subscribe.vue';
 import Blog from '@/components/Blog.vue';
+import Info from '@/components/Info.vue';
 
 export default {
 	components: {
@@ -43,7 +44,8 @@ export default {
 		ProductTypes,
 		FeaturedProducts,
 		Subscribe,
-		Blog
+		Blog,
+		Info
 	}
 };
 </script>
