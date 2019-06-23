@@ -14,7 +14,7 @@
 
 		<Subscribe />
 
-		<section class="blog-news"></section>
+		<Blog />
 
 		<section class="summary-info"></section>
 
@@ -31,6 +31,7 @@ import WeOffer from '@/components/WeOffer.vue';
 import ProductTypes from '@/components/ProductTypes.vue';
 import FeaturedProducts from '@/components/FeaturedProducts.vue';
 import Subscribe from '@/components/Subscribe.vue';
+import Blog from '@/components/Blog.vue';
 
 export default {
 	components: {
@@ -42,6 +43,7 @@ export default {
 		ProductTypes,
 		FeaturedProducts,
 		Subscribe,
+		Blog
 	}
 };
 </script>
